@@ -26,7 +26,7 @@ The right visualization shows a Grouped Bar Chart which compares both Texas and 
 
 The rhetorical techniques used in the chart are:
 - **Simplification**: The dataset which had values of each category city-wise has been normalized on the scale of 1 to 10. The data has been simplified and then aggregated to show it state-wise and drive a point home, which is that California is still better.
-- *Omission*: Some categories in which values for Texas is better have been omitted to persuade the user that California is still way better.
+- **Omission**: Some categories in which values for Texas is better have been omitted to persuade the user that California is still way better.
 - **Axis Scaling**: The axes of the bar chart have been scaled in the right chart to make the contrast easily distinguishable.
 - **Anchoring**: The right chart directs the viewer's attention by showing the bad qualities of Texas with respect to California side by side so that user is forced to make a comparison.
 - **Comparison**: The grouped bar chart shows a clear comparison between Texas and California based on selected features and its visualized in a way such that values of same categories for California seem much higher in comparison and its also color coded.
