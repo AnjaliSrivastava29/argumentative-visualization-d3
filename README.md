@@ -2,6 +2,7 @@
 
 A pair of data visualizations that argue for opposing viewpoints, using the same base dataset.
 
+![comparison image](image.png)
 
 ## About the Debate
 
