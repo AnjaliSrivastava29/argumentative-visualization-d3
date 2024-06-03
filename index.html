@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Homework #5: Argumentative Vis - CSE 578 - Spring 2023</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        .myContainer {
+            margin: auto;
+            width: 1410px;
+        }
+
+        #one_div,
+        #two_div {
+            float: left;
+            width: 700px;
+            padding: 10px;
+        }
+
+        #two_div {
+            float: right;
+        }
+
+        svg {
+            width: 680px;
+            height: 400px;
+            background-color: white;
+            border: 1px solid lightgray;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myContainer">
+        <h1 class="text-center">Homework #5: Argumentative Vis</h1>
+        <h3 class="text-center">Anjali Srivastava - asriva86@asu.edu</h3>
+        <div class="border border-dark rounded bg-light shadow-sm text-center">
+            <h3>Why Texas is Better Than California? A Tale of Two States!</h3>
+        </div>
+        <hr>
+        <div id="one_div" class="border border-dark rounded bg-light shadow-sm text-center">
+            <h4>Texas Dethrones California!</h4>
+            <svg id="one_svg"></svg>
+            <p>
+                Texas is clearly faring way better than California,
+                making life easier for the people with its incredible housing, affordable living (better score in cost of living),
+                ease of commute and internet accessibility. All amazing stuff which makes Texas
+                your next home!
+            <p>
+        </div>
+        <div id="two_div" class="border border-dark rounded bg-light shadow-sm text-center">
+            <h4>California Still Rules!</h4>
+            <svg id="two_svg"></svg>
+            <p>
+                Texas is in no way in competition with California. California is and will continue to be
+                the destination for thousands of people looking to make it their home with its higher safety,
+                better access to education and greater scope of business for your dreams to come true!
+
+            <p>
+        </div>
+
+
+        <div class="border border-dark rounded bg-light shadow-sm text-justify" style="margin-top: 600px; padding: 5px;">
+            <h3 class="text-center">About the Debate</h3>
+            <p>
+                With over one-fifth of the American population residing in either Texas or California, these 
+                two states hold the top spots for being the most densely populated states in the country.
+                Choosing between Texas and California can be a challenging decision as they both offer exceptional 
+                weather, stunning landscapes, and a wide range of exciting activities. However, recent trends have 
+                shown that Texas has experienced rapid growth, making it one of the fastest-growing states in the U.S., 
+                while California has grown at a slower rate than the national average. Some portion of the people tend
+                to prefer Texas now while others still swear by California. <br>
+                A dataset related to the quality of life has been used to make the arguments.
+                Link to the dataset: <a
+                    href="https://www.kaggle.com/datasets/orhankaramancode/city-quality-of-life-dataset"
+                    target="_blank">https://www.kaggle.com/datasets/orhankaramancode/city-quality-of-life-dataset.</a> <br>
+                This dataset was obtained from Teleport API endpoints ( <a href="https://developers.teleport.org/api/" target="_blank">https://developers.teleport.org/api/</a>)
+                and pre-processed before being uploaded to Kaggle. Teleport.org aggregates its data sources and computes 
+                scores for urban areas (Teleport Cities) across various different categories. <br> <br>
+                
+                The left visualization shows a <b>Spider/Radar chart</b> which compares both Texas and California
+                on their quality of life on the basis of few selected parameters like Housing, Ease of Living,
+                Travel Connectivity, Commute and Internet Access. <br>
+                The rhetorical techniques used in the chart are: <br>
+                - <b>Simplification:</b> The dataset provided the values of each category city-wise. The data has been
+                simplified by aggregating city-wise data into state to visualize comparison between states.
+                to frame the argument. <br>
+                - <b>Omission</b>: Some categories in which California is better has been omitted to persuade
+                the user that Texas is way better.  <br>
+                - <b>Anchoring: </b>The left chart directs the viewer's attention by highlighting the better qualities of Texas
+                in the Radar chart so that the values of those categories for California seem much smaller in comparison. <br>
+                - <b>Comparison:</b> The radar chart shows a clear comparison between Texas and California based on certain features and color coding,
+                and its visualized in a way that helps the user to interpret the contrasting difference in a single look. <br>
+                - <b>Axis Scaling:</b> The axes have been scaled in the left Radar chart to make the difference between both
+                the states appear more distinctive. <br>
+                - <b>Filtering: </b>The data has been fitered to show only the few necessary features which show Texas is better.
+
+                <br>
+                <br>
+                The right visualization shows a <b>Grouped Bar Chart</b> which compares both Texas and California
+                on their quality of life on the basis of few selected parameters like Venture Capital, 
+                Safety, Education, Tolerance and Startups. <br>
+
+                The rhetorical techniques used in the chart are: <br>
+                - <b>Simplification: </b>The dataset which had values of each category city-wise has been normalized on the scale of 1 to 10.
+                The data has been simplified and then aggregated to show it state-wise
+                and drive a point home, which is that California is still better. <br>
+                - <b>Omission: </b>Some categories in which values for Texas is better have been omitted to persuade
+                the user that California is still way better. <br>
+                - <b>Axis Scaling:</b> The axes of the bar chart have been scaled in the right chart to make the contrast
+                easily distinguishable. <br>
+                - <b>Anchoring: </b> The right chart directs the viewer's attention by showing the bad qualities of Texas 
+                with respect to California side by side so that user is forced to make a comparison. <br>
+                - <b>Comparison: </b>The grouped bar chart shows a clear comparison between Texas and California based on selected features
+                and its visualized in a way such that values of same categories for California seem much higher in comparison and its also color coded. <br>
+                - <b>Filtering: </b>The data has been fitered to show only selected features in which California's ratings are higher. <br>
+                                
+            </p>
+        </div>
+        <hr>
+</body>
+
+</html>
